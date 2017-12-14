@@ -29,9 +29,9 @@ fontfamily=SansSerif //possible: SansSerif,Serif,Monospaced
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>10</x>
+      <x>50</x>
       <y>110</y>
-      <w>240</w>
+      <w>210</w>
       <h>130</h>
     </coordinates>
     <panel_attributes>package :: Class
@@ -48,10 +48,10 @@ methods</panel_attributes>
   <element>
     <id>UMLNote</id>
     <coordinates>
-      <x>10</x>
+      <x>50</x>
       <y>20</y>
       <w>140</w>
-      <h>70</h>
+      <h>60</h>
     </coordinates>
     <panel_attributes>Pokemon Design
 Brittney Morales
@@ -62,10 +62,10 @@ bg=blue</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>320</x>
+      <x>360</x>
       <y>0</y>
       <w>260</w>
-      <h>210</h>
+      <h>190</h>
     </coordinates>
     <panel_attributes>/pokemon.model :: Pokemon/
 --
@@ -79,16 +79,15 @@ bg=blue</panel_attributes>
 + Pokemon(int, String) : constructor
 + toString() : String
 + getPokemonInformation() : String
-+ getPokemonTypes() : String
-+ </panel_attributes>
++ getPokemonTypes() : String</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>10</x>
+      <x>50</x>
       <y>250</y>
-      <w>240</w>
+      <w>170</w>
       <h>80</h>
     </coordinates>
     <panel_attributes>/package :: Interface/
@@ -101,10 +100,10 @@ methods
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>320</x>
-      <y>230</y>
-      <w>260</w>
-      <h>130</h>
+      <x>1040</x>
+      <y>360</y>
+      <w>190</w>
+      <h>90</h>
     </coordinates>
     <panel_attributes>/pokemon.model :: Dragon/
 --
@@ -112,5 +111,234 @@ methods
 + canFly() : Boolean
 + attackMoves() : String</panel_attributes>
     <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>560</x>
+      <y>650</y>
+      <w>210</w>
+      <h>150</h>
+    </coordinates>
+    <panel_attributes>pokemon.mode :: DragonAir</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>850</x>
+      <y>650</y>
+      <w>210</w>
+      <h>150</h>
+    </coordinates>
+    <panel_attributes>pokemon.mode :: Dratini</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>260</x>
+      <y>360</y>
+      <w>210</w>
+      <h>150</h>
+    </coordinates>
+    <panel_attributes>pokemon.model :: Cubchoo
+--
+constructor</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1130</x>
+      <y>510</y>
+      <w>210</w>
+      <h>150</h>
+    </coordinates>
+    <panel_attributes>pokemon.mode :: Snivy</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>490</x>
+      <y>360</y>
+      <w>210</w>
+      <h>150</h>
+    </coordinates>
+    <panel_attributes>pokemon.mode :: Kingdra
+--
+constructor
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>270</x>
+      <y>650</y>
+      <w>210</w>
+      <h>150</h>
+    </coordinates>
+    <panel_attributes>pokemon.mode :: Dragonite</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>760</x>
+      <y>710</y>
+      <w>110</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>90.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>390</x>
+      <y>180</y>
+      <w>30</w>
+      <h>200</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;180.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>610</x>
+      <y>50</y>
+      <w>540</w>
+      <h>540</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;260.0;10.0;260.0;520.0;520.0;520.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>530</x>
+      <y>180</y>
+      <w>30</w>
+      <h>200</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;180.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>610</x>
+      <y>100</y>
+      <w>260</w>
+      <h>570</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;240.0;550.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>470</x>
+      <y>710</y>
+      <w>110</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>90.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1050</x>
+      <y>440</y>
+      <w>40</w>
+      <h>310</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.</panel_attributes>
+    <additional_attributes>20.0;10.0;20.0;290.0;10.0;290.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1040</x>
+      <y>20</y>
+      <w>170</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>/pokemon.model :: Grass/
+--
++ canVineWhip(): Boolean
++ solarBeam() : Int
++ sayName() : String
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1040</x>
+      <y>120</y>
+      <w>170</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>/pokemon.model :: Water/
+--
++ sayName() : String
++ canSwim() : Boolean
++ waterGun() : int
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1040</x>
+      <y>250</y>
+      <w>170</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>/pokemon.model :: Ice/
+--
++ sayName() : String
++ powderSnow() : int
++ icyWind() : int
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1200</x>
+      <y>60</y>
+      <w>120</w>
+      <h>470</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.</panel_attributes>
+    <additional_attributes>10.0;10.0;100.0;10.0;100.0;450.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>590</x>
+      <y>190</y>
+      <w>470</w>
+      <h>190</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.</panel_attributes>
+    <additional_attributes>450.0;10.0;10.0;10.0;10.0;170.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>410</x>
+      <y>280</y>
+      <w>650</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.</panel_attributes>
+    <additional_attributes>630.0;10.0;10.0;10.0;10.0;80.0</additional_attributes>
   </element>
 </diagram>
