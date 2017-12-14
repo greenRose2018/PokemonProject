@@ -4,5 +4,5 @@ public interface Dragon
 {
 	public String sayName();
 	public boolean canFly();
-	public void attackMoves();
+	public String attackMoves();
 }
