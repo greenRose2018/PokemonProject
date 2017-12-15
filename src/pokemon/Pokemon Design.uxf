@@ -25,14 +25,14 @@ fontfamily=SansSerif //possible: SansSerif,Serif,Monospaced
 
 
 // This text will be stored with each diagram;  use it for notes.</help_text>
-  <zoom_level>10</zoom_level>
+  <zoom_level>9</zoom_level>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>50</x>
-      <y>110</y>
-      <w>210</w>
-      <h>130</h>
+      <x>27</x>
+      <y>216</y>
+      <w>189</w>
+      <h>117</h>
     </coordinates>
     <panel_attributes>package :: Class
 --
@@ -48,10 +48,10 @@ methods</panel_attributes>
   <element>
     <id>UMLNote</id>
     <coordinates>
-      <x>50</x>
-      <y>20</y>
-      <w>140</w>
-      <h>60</h>
+      <x>27</x>
+      <y>135</y>
+      <w>126</w>
+      <h>54</h>
     </coordinates>
     <panel_attributes>Pokemon Design
 Brittney Morales
@@ -62,10 +62,10 @@ bg=blue</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>360</x>
-      <y>0</y>
-      <w>260</w>
-      <h>190</h>
+      <x>306</x>
+      <y>117</y>
+      <w>234</w>
+      <h>171</h>
     </coordinates>
     <panel_attributes>/pokemon.model :: Pokemon/
 --
@@ -85,10 +85,10 @@ bg=blue</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>50</x>
-      <y>250</y>
-      <w>170</w>
-      <h>80</h>
+      <x>27</x>
+      <y>342</y>
+      <w>153</w>
+      <h>72</h>
     </coordinates>
     <panel_attributes>/package :: Interface/
 --
@@ -100,10 +100,10 @@ methods
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1040</x>
-      <y>360</y>
-      <w>190</w>
-      <h>90</h>
+      <x>918</x>
+      <y>441</y>
+      <w>171</w>
+      <h>81</h>
     </coordinates>
     <panel_attributes>/pokemon.model :: Dragon/
 --
@@ -115,32 +115,36 @@ methods
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>560</x>
-      <y>650</y>
-      <w>210</w>
-      <h>150</h>
+      <x>486</x>
+      <y>702</y>
+      <w>189</w>
+      <h>135</h>
     </coordinates>
-    <panel_attributes>pokemon.mode :: DragonAir</panel_attributes>
+    <panel_attributes>pokemon.mode :: DragonAir
+--
+constructor</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>850</x>
-      <y>650</y>
-      <w>210</w>
-      <h>150</h>
+      <x>747</x>
+      <y>702</y>
+      <w>189</w>
+      <h>135</h>
     </coordinates>
-    <panel_attributes>pokemon.mode :: Dratini</panel_attributes>
+    <panel_attributes>pokemon.mode :: Dratini
+--
+constructor</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>260</x>
-      <y>360</y>
-      <w>210</w>
-      <h>150</h>
+      <x>216</x>
+      <y>441</y>
+      <w>189</w>
+      <h>135</h>
     </coordinates>
     <panel_attributes>pokemon.model :: Cubchoo
 --
@@ -150,21 +154,24 @@ constructor</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1130</x>
-      <y>510</y>
-      <w>210</w>
-      <h>150</h>
+      <x>999</x>
+      <y>576</y>
+      <w>189</w>
+      <h>135</h>
     </coordinates>
-    <panel_attributes>pokemon.mode :: Snivy</panel_attributes>
+    <panel_attributes>pokemon.mode :: Snivy
+--
+constructor
+</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>490</x>
-      <y>360</y>
-      <w>210</w>
-      <h>150</h>
+      <x>423</x>
+      <y>441</y>
+      <w>189</w>
+      <h>135</h>
     </coordinates>
     <panel_attributes>pokemon.mode :: Kingdra
 --
@@ -175,21 +182,23 @@ constructor
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>270</x>
-      <y>650</y>
-      <w>210</w>
-      <h>150</h>
+      <x>225</x>
+      <y>702</y>
+      <w>189</w>
+      <h>135</h>
     </coordinates>
-    <panel_attributes>pokemon.mode :: Dragonite</panel_attributes>
+    <panel_attributes>pokemon.mode :: Dragonite
+--
+constructor</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>760</x>
-      <y>710</y>
-      <w>110</w>
-      <h>30</h>
+      <x>666</x>
+      <y>756</y>
+      <w>99</w>
+      <h>27</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes>
     <additional_attributes>90.0;10.0;10.0;10.0</additional_attributes>
@@ -197,10 +206,10 @@ constructor
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>390</x>
-      <y>180</y>
-      <w>30</w>
-      <h>200</h>
+      <x>333</x>
+      <y>279</y>
+      <w>27</w>
+      <h>180</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes>
     <additional_attributes>10.0;10.0;10.0;180.0</additional_attributes>
@@ -208,10 +217,10 @@ constructor
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>610</x>
-      <y>50</y>
-      <w>540</w>
-      <h>540</h>
+      <x>531</x>
+      <y>162</y>
+      <w>486</w>
+      <h>486</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes>
     <additional_attributes>10.0;10.0;260.0;10.0;260.0;520.0;520.0;520.0</additional_attributes>
@@ -219,10 +228,10 @@ constructor
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>530</x>
-      <y>180</y>
-      <w>30</w>
-      <h>200</h>
+      <x>459</x>
+      <y>279</y>
+      <w>27</w>
+      <h>180</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes>
     <additional_attributes>10.0;10.0;10.0;180.0</additional_attributes>
@@ -230,21 +239,21 @@ constructor
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>610</x>
-      <y>100</y>
-      <w>260</w>
-      <h>570</h>
+      <x>531</x>
+      <y>207</y>
+      <w>324</w>
+      <h>513</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes>
-    <additional_attributes>10.0;10.0;240.0;550.0</additional_attributes>
+    <additional_attributes>10.0;10.0;340.0;10.0;340.0;550.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>470</x>
-      <y>710</y>
-      <w>110</w>
-      <h>30</h>
+      <x>405</x>
+      <y>756</y>
+      <w>99</w>
+      <h>27</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes>
     <additional_attributes>90.0;10.0;10.0;10.0</additional_attributes>
@@ -252,21 +261,21 @@ constructor
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1050</x>
-      <y>440</y>
-      <w>40</w>
-      <h>310</h>
+      <x>927</x>
+      <y>513</y>
+      <w>54</w>
+      <h>279</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;.</panel_attributes>
-    <additional_attributes>20.0;10.0;20.0;290.0;10.0;290.0</additional_attributes>
+    <additional_attributes>40.0;10.0;40.0;290.0;10.0;290.0</additional_attributes>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1040</x>
-      <y>20</y>
-      <w>170</w>
-      <h>80</h>
+      <x>918</x>
+      <y>135</y>
+      <w>153</w>
+      <h>72</h>
     </coordinates>
     <panel_attributes>/pokemon.model :: Grass/
 --
@@ -279,10 +288,10 @@ constructor
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1040</x>
-      <y>120</y>
-      <w>170</w>
-      <h>100</h>
+      <x>918</x>
+      <y>225</y>
+      <w>153</w>
+      <h>90</h>
     </coordinates>
     <panel_attributes>/pokemon.model :: Water/
 --
@@ -295,10 +304,10 @@ constructor
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1040</x>
-      <y>250</y>
-      <w>170</w>
-      <h>80</h>
+      <x>918</x>
+      <y>342</y>
+      <w>153</w>
+      <h>72</h>
     </coordinates>
     <panel_attributes>/pokemon.model :: Ice/
 --
@@ -311,10 +320,10 @@ constructor
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1200</x>
-      <y>60</y>
-      <w>120</w>
-      <h>470</h>
+      <x>1062</x>
+      <y>171</y>
+      <w>108</w>
+      <h>423</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;.</panel_attributes>
     <additional_attributes>10.0;10.0;100.0;10.0;100.0;450.0</additional_attributes>
@@ -322,10 +331,10 @@ constructor
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>590</x>
-      <y>190</y>
-      <w>470</w>
-      <h>190</h>
+      <x>513</x>
+      <y>288</y>
+      <w>423</w>
+      <h>171</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;.</panel_attributes>
     <additional_attributes>450.0;10.0;10.0;10.0;10.0;170.0</additional_attributes>
@@ -333,12 +342,105 @@ constructor
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>410</x>
-      <y>280</y>
-      <w>650</w>
-      <h>100</h>
+      <x>351</x>
+      <y>369</y>
+      <w>585</w>
+      <h>90</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;.</panel_attributes>
     <additional_attributes>630.0;10.0;10.0;10.0;10.0;80.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>918</x>
+      <y>54</y>
+      <w>153</w>
+      <h>72</h>
+    </coordinates>
+    <panel_attributes>/pokemon.model :: Normal/
+--
++ tailWhip(): int
++ takeDown() : Int
++ sayName() : String
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1224</x>
+      <y>54</y>
+      <w>153</w>
+      <h>72</h>
+    </coordinates>
+    <panel_attributes>/pokemon.model :: Fire/
+--
++ ember(): int
++ flame() : Int
++ sayName() : String
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1215</x>
+      <y>576</y>
+      <w>162</w>
+      <h>63</h>
+    </coordinates>
+    <panel_attributes>pokemon.mode :: Vulpix
+--
+constructor
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>999</x>
+      <y>738</y>
+      <w>189</w>
+      <h>135</h>
+    </coordinates>
+    <panel_attributes>pokemon.mode :: Litleo
+--
+constructor
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1368</x>
+      <y>72</y>
+      <w>117</w>
+      <h>567</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.</panel_attributes>
+    <additional_attributes>10.0;10.0;110.0;10.0;110.0;610.0;10.0;610.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1179</x>
+      <y>90</y>
+      <w>288</w>
+      <h>747</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.</panel_attributes>
+    <additional_attributes>220.0;10.0;300.0;10.0;300.0;810.0;10.0;810.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1035</x>
+      <y>9</y>
+      <w>513</w>
+      <h>855</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.</panel_attributes>
+    <additional_attributes>10.0;50.0;10.0;10.0;550.0;10.0;550.0;930.0;170.0;930.0</additional_attributes>
   </element>
 </diagram>
