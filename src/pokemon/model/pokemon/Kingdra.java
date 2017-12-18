@@ -2,7 +2,7 @@ package pokemon.model.pokemon;
 
 import pokemon.model.types.Dragon;
 
-public class Kingdra extends Horsea implements Dragon
+public class Kingdra extends Seadra implements Dragon
 {
 	public Kingdra(int number, String name)
 	{
