@@ -1,4 +1,4 @@
-package pokemon.model;
+package pokemon.model.types;
 
 public interface Normal
 {
