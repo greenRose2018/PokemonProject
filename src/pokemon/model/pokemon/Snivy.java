@@ -11,14 +11,14 @@ public class Snivy extends Pokemon implements Grass
 	}
 	public int vineWhip()
 	{
-		
+		return 10;
 	}
 	public int solarBeam()
 	{
-		
+		return 15;
 	}
-	public String sayName();
+	public String sayName()
 	{
-		
+		return "Snivy";
 	}
 }
