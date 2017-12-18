@@ -6,14 +6,12 @@ public class Dragonite extends Dragonair
 	{
 		super(number, name);
 	}
+	
 	public String sayName()
 	{
 		return "Dragonite";
 	}
-	public boolean canFly()
-	{
-		return true;
-	}
+	
 	public int dragonTail()
 	{
 		return 10;

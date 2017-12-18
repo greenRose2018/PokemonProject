@@ -13,10 +13,6 @@ public class Dragonair extends Dratini
 		
 		return 5;
 	}
-	public boolean canFly()
-	{
-		return true;
-	}
 	
 	public String sayName()
 	{
