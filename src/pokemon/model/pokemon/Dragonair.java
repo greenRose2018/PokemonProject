@@ -2,10 +2,18 @@ package pokemon.model.pokemon;
 
 public class Dragonair extends Dratini
 {
-
+	public Dragonair()
+	{
+		super(148,"Dragonair");
+	}
+	public Dragonair(String name)
+	{
+		super(148,name);
+	}
 	public Dragonair(int number, String name)
 	{
 		super(number, name);
+		setup();
 	}
 	
 	public int dragonTail()
@@ -17,5 +25,11 @@ public class Dragonair extends Dratini
 	public String sayName()
 	{
 		return "Dragonair";
+	}
+	@Override
+	protected void setup()
+	{
+		this.setAttackPoints(22);
+		this.setHealthPoints(150);
 	}
 }
