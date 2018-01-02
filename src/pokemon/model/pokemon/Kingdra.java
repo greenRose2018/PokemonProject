@@ -4,9 +4,18 @@ import pokemon.model.types.Dragon;
 
 public class Kingdra extends Seadra implements Dragon
 {
+	public Kingdra()
+	{
+		super(230,"Kingdra");
+	}
+	public Kingdra(String name)
+	{
+		super(230,name);
+	}
 	public Kingdra(int number, String name)
 	{
 		super(number, name);
+		setup();
 	}
 	public String sayName()
 	{
@@ -20,5 +29,12 @@ public class Kingdra extends Seadra implements Dragon
 	public int dragonTail()
 	{
 		return 15;
+	}
+	@Override
+	protected void setup()
+	{
+		this.setAttackPoints(40);
+		this.setCanEvolve(false);
+		this.setHealthPoints(210);
 	}
 }
