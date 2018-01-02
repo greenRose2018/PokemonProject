@@ -6,14 +6,14 @@ import javax.swing.JFrame;
 
 public class PokeFrame extends JFrame
 {	
-	private Controller baseController;
+	private Controller appController;
 	private PokePanel firstPanel;
 
-	public PokeFrame(Controller baseController)
+	public PokeFrame(Controller appController)
 	{
 		super();
-		this.setBaseController(baseController);
-		firstPanel = new PokePanel(baseController);
+//		this.setAppController(appController);
+//		firstPanel = new PokePanel(appController);
 		setupFrame();
 	}
 	
@@ -26,12 +26,12 @@ public class PokeFrame extends JFrame
 		this.setVisible(true);
 	}
 	
-	public Controller getBaseController()
+	public Controller getAppController()
 	{
-		return baseController;
+		return appController;
 	}
-	public void setBaseController(Controller baseController)
+	public void setBaseController(Controller appController)
 	{
-		this.baseController = baseController;
+		this.appController = appController;
 	}
 }
