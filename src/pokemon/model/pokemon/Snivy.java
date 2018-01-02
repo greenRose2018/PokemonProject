@@ -5,9 +5,18 @@ import pokemon.model.types.Grass;
 
 public class Snivy extends Pokemon implements Grass
 {
+	public Snivy()
+	{
+		super(495,"Snivy");
+	}
+	public Snivy(String name)
+	{
+		super(495,name);
+	}
 	public Snivy(int number, String name)
 	{
 		super(number, name);
+		setup();
 	}
 	public int vineWhip()
 	{
@@ -20,5 +29,12 @@ public class Snivy extends Pokemon implements Grass
 	public String sayName()
 	{
 		return "Snivy";
+	}
+	protected void setup()
+	{
+		this.setAttackPoints(20);
+		this.setCanEvolve(true);
+		this.setEnhancementModifier(.5);
+		this.setHealthPoints(55);
 	}
 }
