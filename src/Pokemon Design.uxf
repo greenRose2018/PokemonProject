@@ -30,7 +30,7 @@ fontfamily=SansSerif //possible: SansSerif,Serif,Monospaced
     <id>UMLClass</id>
     <coordinates>
       <x>0</x>
-      <y>150</y>
+      <y>192</y>
       <w>126</w>
       <h>78</h>
     </coordinates>
@@ -49,7 +49,7 @@ methods</panel_attributes>
     <id>UMLNote</id>
     <coordinates>
       <x>0</x>
-      <y>96</y>
+      <y>138</y>
       <w>84</w>
       <h>36</h>
     </coordinates>
@@ -63,7 +63,7 @@ bg=blue</panel_attributes>
     <id>UMLClass</id>
     <coordinates>
       <x>186</x>
-      <y>84</y>
+      <y>126</y>
       <w>156</w>
       <h>114</h>
     </coordinates>
@@ -86,7 +86,7 @@ bg=blue</panel_attributes>
     <id>UMLClass</id>
     <coordinates>
       <x>0</x>
-      <y>234</y>
+      <y>276</y>
       <w>102</w>
       <h>48</h>
     </coordinates>
@@ -101,7 +101,7 @@ methods
     <id>UMLClass</id>
     <coordinates>
       <x>594</x>
-      <y>300</y>
+      <y>342</y>
       <w>114</w>
       <h>54</h>
     </coordinates>
@@ -116,7 +116,7 @@ methods
     <id>UMLClass</id>
     <coordinates>
       <x>282</x>
-      <y>486</y>
+      <y>528</y>
       <w>162</w>
       <h>48</h>
     </coordinates>
@@ -131,7 +131,7 @@ bg=gray</panel_attributes>
     <id>UMLClass</id>
     <coordinates>
       <x>462</x>
-      <y>486</y>
+      <y>528</y>
       <w>144</w>
       <h>48</h>
     </coordinates>
@@ -146,7 +146,7 @@ bg=gray</panel_attributes>
     <id>UMLClass</id>
     <coordinates>
       <x>102</x>
-      <y>300</y>
+      <y>342</y>
       <w>156</w>
       <h>42</h>
     </coordinates>
@@ -161,7 +161,7 @@ fg=none</panel_attributes>
     <id>UMLClass</id>
     <coordinates>
       <x>648</x>
-      <y>390</y>
+      <y>432</y>
       <w>138</w>
       <h>42</h>
     </coordinates>
@@ -176,7 +176,7 @@ bg=green</panel_attributes>
     <id>UMLClass</id>
     <coordinates>
       <x>270</x>
-      <y>300</y>
+      <y>342</y>
       <w>150</w>
       <h>42</h>
     </coordinates>
@@ -191,7 +191,7 @@ bg=cyan</panel_attributes>
     <id>UMLClass</id>
     <coordinates>
       <x>96</x>
-      <y>486</y>
+      <y>528</y>
       <w>156</w>
       <h>48</h>
     </coordinates>
@@ -206,7 +206,7 @@ fg=blue</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>438</x>
-      <y>510</y>
+      <y>552</y>
       <w>36</w>
       <h>18</h>
     </coordinates>
@@ -217,7 +217,7 @@ fg=blue</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>198</x>
-      <y>192</y>
+      <y>234</y>
       <w>18</w>
       <h>120</h>
     </coordinates>
@@ -228,7 +228,7 @@ fg=blue</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>336</x>
-      <y>114</y>
+      <y>156</y>
       <w>324</w>
       <h>324</h>
     </coordinates>
@@ -239,7 +239,7 @@ fg=blue</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>294</x>
-      <y>192</y>
+      <y>234</y>
       <w>18</w>
       <h>120</h>
     </coordinates>
@@ -250,7 +250,7 @@ fg=blue</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>336</x>
-      <y>144</y>
+      <y>186</y>
       <w>216</w>
       <h>354</h>
     </coordinates>
@@ -261,7 +261,7 @@ fg=blue</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>246</x>
-      <y>510</y>
+      <y>552</y>
       <w>48</w>
       <h>18</h>
     </coordinates>
@@ -272,7 +272,7 @@ fg=blue</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>600</x>
-      <y>348</y>
+      <y>390</y>
       <w>36</w>
       <h>186</h>
     </coordinates>
@@ -283,7 +283,7 @@ fg=blue</panel_attributes>
     <id>UMLClass</id>
     <coordinates>
       <x>594</x>
-      <y>96</y>
+      <y>138</y>
       <w>102</w>
       <h>48</h>
     </coordinates>
@@ -299,7 +299,7 @@ fg=blue</panel_attributes>
     <id>UMLClass</id>
     <coordinates>
       <x>594</x>
-      <y>156</y>
+      <y>198</y>
       <w>102</w>
       <h>60</h>
     </coordinates>
@@ -315,7 +315,7 @@ fg=blue</panel_attributes>
     <id>UMLClass</id>
     <coordinates>
       <x>594</x>
-      <y>234</y>
+      <y>276</y>
       <w>102</w>
       <h>48</h>
     </coordinates>
@@ -331,7 +331,7 @@ fg=blue</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>690</x>
-      <y>120</y>
+      <y>162</y>
       <w>72</w>
       <h>282</h>
     </coordinates>
@@ -342,7 +342,7 @@ fg=blue</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>324</x>
-      <y>198</y>
+      <y>240</y>
       <w>282</w>
       <h>114</h>
     </coordinates>
@@ -353,7 +353,7 @@ fg=blue</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>210</x>
-      <y>252</y>
+      <y>294</y>
       <w>396</w>
       <h>60</h>
     </coordinates>
@@ -364,7 +364,7 @@ fg=blue</panel_attributes>
     <id>UMLClass</id>
     <coordinates>
       <x>594</x>
-      <y>42</y>
+      <y>84</y>
       <w>102</w>
       <h>48</h>
     </coordinates>
@@ -380,7 +380,7 @@ fg=blue</panel_attributes>
     <id>UMLClass</id>
     <coordinates>
       <x>792</x>
-      <y>42</y>
+      <y>84</y>
       <w>102</w>
       <h>48</h>
     </coordinates>
@@ -396,7 +396,7 @@ fg=blue</panel_attributes>
     <id>UMLClass</id>
     <coordinates>
       <x>756</x>
-      <y>444</y>
+      <y>486</y>
       <w>144</w>
       <h>42</h>
     </coordinates>
@@ -411,7 +411,7 @@ bg=red</panel_attributes>
     <id>UMLClass</id>
     <coordinates>
       <x>648</x>
-      <y>540</y>
+      <y>582</y>
       <w>144</w>
       <h>48</h>
     </coordinates>
@@ -426,7 +426,7 @@ bg=dark_gray</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>888</x>
-      <y>54</y>
+      <y>96</y>
       <w>84</w>
       <h>432</h>
     </coordinates>
@@ -437,7 +437,7 @@ bg=dark_gray</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>786</x>
-      <y>66</y>
+      <y>108</y>
       <w>174</w>
       <h>498</h>
     </coordinates>
@@ -448,7 +448,7 @@ bg=dark_gray</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>672</x>
-      <y>12</y>
+      <y>54</y>
       <w>318</w>
       <h>570</h>
     </coordinates>
@@ -459,7 +459,7 @@ bg=dark_gray</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>414</x>
-      <y>312</y>
+      <y>354</y>
       <w>192</w>
       <h>150</h>
     </coordinates>
@@ -470,7 +470,7 @@ bg=dark_gray</panel_attributes>
     <id>UMLClass</id>
     <coordinates>
       <x>792</x>
-      <y>102</y>
+      <y>144</y>
       <w>102</w>
       <h>54</h>
     </coordinates>
@@ -487,7 +487,7 @@ need to change
     <id>Relation</id>
     <coordinates>
       <x>174</x>
-      <y>126</y>
+      <y>168</y>
       <w>762</w>
       <h>504</h>
     </coordinates>
@@ -498,7 +498,7 @@ need to change
     <id>UMLClass</id>
     <coordinates>
       <x>270</x>
-      <y>426</y>
+      <y>468</y>
       <w>150</w>
       <h>42</h>
     </coordinates>
@@ -513,7 +513,7 @@ bg=cyan</panel_attributes>
     <id>UMLClass</id>
     <coordinates>
       <x>270</x>
-      <y>360</y>
+      <y>402</y>
       <w>150</w>
       <h>42</h>
     </coordinates>
@@ -528,7 +528,7 @@ bg=cyan</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>348</x>
-      <y>336</y>
+      <y>378</y>
       <w>18</w>
       <h>36</h>
     </coordinates>
@@ -539,7 +539,7 @@ bg=cyan</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>342</x>
-      <y>396</y>
+      <y>438</y>
       <w>18</w>
       <h>42</h>
     </coordinates>
@@ -550,7 +550,7 @@ bg=cyan</panel_attributes>
     <id>UMLClass</id>
     <coordinates>
       <x>102</x>
-      <y>360</y>
+      <y>402</y>
       <w>156</w>
       <h>42</h>
     </coordinates>
@@ -565,7 +565,7 @@ fg=none</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>168</x>
-      <y>336</y>
+      <y>378</y>
       <w>18</w>
       <h>36</h>
     </coordinates>
