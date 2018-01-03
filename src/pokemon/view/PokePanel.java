@@ -53,6 +53,28 @@ public class PokePanel extends JPanel
 		super();
 		this.appController = appController;
 		
+		baseLayout = new SpringLayout();
+		
+		healthLabel = new JLabel("Health");
+		attackLabel = new JLabel("Attack");
+		nameLabel = new JLabel("Name");
+		numberLabel = new JLabel("No.");
+		evolvableLabel = new JLabel("Evolvable");
+		modifierLabel = new JLabel("Modifier");
+		iconLabel = new JLabel("Icon");
+		
+		evolvableBox = new JCheckBox();
+		nameField = new JTextField();
+		numberField = new JTextField();
+		attackField = new JTextField();
+		healthField = new JTextField();
+		modifierField = new JTextField();
+		
+		descriptionArea = new JTextArea();
+		typeArea = new JTextArea();
+		
+	
+		
 		setupPanel();
 		setupLayout();
 		setupListeners();
