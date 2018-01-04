@@ -33,6 +33,7 @@ public class Controller
 	public void start()
 	{
 		
+		
 	}
 	
 	public PokeFrame getPokeFrame()
