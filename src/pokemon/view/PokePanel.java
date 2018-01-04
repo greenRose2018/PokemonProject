@@ -72,9 +72,18 @@ public class PokePanel extends JPanel
 		
 		descriptionArea = new JTextArea();
 		typeArea = new JTextArea();
+
+		saveButton = new JButton("Save");
+		clearButton = new JButton("Save");
+		pokedexDropdown = new JComboBox();
 		
-	
-		
+		firstType = new JPanel();
+		secondType = new JPanel();
+		thirdType = new JPanel();
+		fourthType = new JPanel();
+		fifthType = new JPanel();
+		sixthType = new JPanel();
+		seventhType = new JPanel();
 		setupPanel();
 		setupLayout();
 		setupListeners();
@@ -83,7 +92,40 @@ public class PokePanel extends JPanel
 	
 	private void setupPanel()
 	{
-		
+		this.setLayout(baseLayout);
+				
+		this.add(healthLabel);
+		this.add();
+		this.add();
+		this.add();
+		this.add();
+		this.add();
+		this.add(saveButton);
+		this.add();
+		this.add();
+		this.add();
+		this.add();
+		this.add();
+		this.add();
+		this.add();
+		this.add();
+		this.add();
+		this.add();
+		this.add();
+		this.add();
+		this.add();
+		this.add();
+		this.add();
+		this.add();
+		this.add();
+		this.add();
+		this.add();
+		this.add();
+		this.add();
+		this.add();
+		this.add();
+		this.add();
+		this.add();
 	}
 	
 	private void setupLayout()
