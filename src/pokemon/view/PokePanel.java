@@ -95,37 +95,35 @@ public class PokePanel extends JPanel
 		this.setLayout(baseLayout);
 				
 		this.add(healthLabel);
-		this.add();
-		this.add();
-		this.add();
-		this.add();
-		this.add();
+		this.add(attackLabel);
+		this.add(nameLabel);
+		this.add(numberLabel);
+		this.add(evolvableLabel);
+		this.add(modifierLabel);
+		this.add(iconLabel);
+		
+		this.add(evolvableBox);
+		this.add(nameField);
+		this.add(numberField);
+		this.add(attackField);
+		this.add(healthField);
+		this.add(modifierField);
+		
+		this.add(descriptionArea);
+		this.add(typeArea);
+		
 		this.add(saveButton);
-		this.add();
-		this.add();
-		this.add();
-		this.add();
-		this.add();
-		this.add();
-		this.add();
-		this.add();
-		this.add();
-		this.add();
-		this.add();
-		this.add();
-		this.add();
-		this.add();
-		this.add();
-		this.add();
-		this.add();
-		this.add();
-		this.add();
-		this.add();
-		this.add();
-		this.add();
-		this.add();
-		this.add();
-		this.add();
+		this.add(clearButton);
+		this.add(pokedexDropdown);
+		
+		this.add(firstType);
+		this.add(secondType);
+		this.add(thirdType);
+		this.add(fourthType);
+		this.add(fifthType);
+		this.add(sixthType);
+		this.add(seventhType);
+		
 	}
 	
 	private void setupLayout()
