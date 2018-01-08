@@ -1,5 +1,6 @@
 package pokemon.controller;
 
+import pokemon.model.pokemon.*;
 import pokemon.model.Pokemon;
 import pokemon.view.PokeFrame;
 import java.util.List;
@@ -9,6 +10,31 @@ public class Controller
 {
 	//MARK: Data-members
 	private List<Pokemon> pokedex;
+	private PokeFrame appFrame;
+	
+	
+	public Controller()
+	{
+		pokedex = new ArrayList<Pokemon>();
+		buildPokedex();
+		
+		appFrame = new PokeFrame(this);
+	}
+	public void start()
+	{
+		
+		
+	}
+	
+	public void buildPokedex()
+	{
+		pokedex.add(new Cubchoo());
+		pokedex.add(new Dratini());
+		pokedex.add(new Horsea());
+		pokedex.add(new Litleo());
+		pokedex.add(new Snivy());
+		pokedex.add(new Vulpix());
+	}
 	
 	public List<Pokemon> getPokedex()
 	{
@@ -19,22 +45,23 @@ public class Controller
 	{
 		return false;
 	}
+	
 	public boolean isValidDouble(String input)
 	{
 		return false;
 	}
 	
-	private PokeFrame appFrame;
+	public String [] convertPokedex()
+	{
+		String [] names = new String [pokedex.size()];
+		
+		for (int index = 0; index < pokedex.size(); index++)
+		{
+			names[index] = pokedex.get(index).getName();
+		}
+		return names;
+	}
 	
-	public Controller()
-	{
-		appFrame = new PokeFrame(this);
-	}
-	public void start()
-	{
-		
-		
-	}
 	
 	public PokeFrame getPokeFrame()
 	{
