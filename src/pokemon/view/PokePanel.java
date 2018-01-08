@@ -3,6 +3,7 @@ package pokemon.view;
 import pokemon.controller.Controller;
 import javax.swing.*;
 import java.awt.*;
+import java.awt.event.*;
 
 public class PokePanel extends JPanel
 {
@@ -37,7 +38,7 @@ public class PokePanel extends JPanel
 	private JPanel fourthType;
 	private JPanel fifthType;
 	private JPanel sixthType;
-	private JPanel seventhType;
+	//private JPanel seventhType;
 	
 	private void updatePokedexInfo(int index)
 	{
@@ -49,6 +50,8 @@ public class PokePanel extends JPanel
 		modifierField.setText(appController.getPokedex().get(index).getEnhancementModifier() + "");
 	}
 	public PokePanel() 
+	
+	public PokePanel(Controller appController) 
 	{
 		super();
 		this.appController = appController;
@@ -83,7 +86,7 @@ public class PokePanel extends JPanel
 		fourthType = new JPanel();
 		fifthType = new JPanel();
 		sixthType = new JPanel();
-		seventhType = new JPanel();
+		//seventhType = new JPanel();
 		setupPanel();
 		setupLayout();
 		setupListeners();
@@ -122,7 +125,7 @@ public class PokePanel extends JPanel
 		this.add(fourthType);
 		this.add(fifthType);
 		this.add(sixthType);
-		this.add(seventhType);
+		//this.add(seventhType);
 		
 	}
 	
