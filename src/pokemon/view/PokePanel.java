@@ -63,11 +63,11 @@ public class PokePanel extends JPanel
 		healthField = new JTextField();
 		modifierField = new JTextField();
 		
-		descriptionArea = new JTextArea();
-		typeArea = new JTextArea();
+		descriptionArea = new JTextArea(5,10);
+		typeArea = new JTextArea(4,15);
 
 		saveButton = new JButton("Save");
-		clearButton = new JButton("Save");
+		clearButton = new JButton("Clear");
 		pokedexDropdown = new JComboBox();
 		
 		firstType = new JPanel();
