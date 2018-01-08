@@ -12,8 +12,8 @@ public class PokeFrame extends JFrame
 	public PokeFrame(Controller appController)
 	{
 		super();
-//		this.setAppController(appController);
-//		firstPanel = new PokePanel(appController);
+		this.setAppController(appController);
+		firstPanel = new PokePanel(appController);
 		setupFrame();
 	}
 	
@@ -30,7 +30,7 @@ public class PokeFrame extends JFrame
 	{
 		return appController;
 	}
-	public void setBaseController(Controller appController)
+	public void setAppController(Controller appController)
 	{
 		this.appController = appController;
 	}
