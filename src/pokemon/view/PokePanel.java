@@ -167,4 +167,55 @@ public class PokePanel extends JPanel
 		DefaultComboBoxModel pokemonModel = new DefaultComboBoxModel(appController.convertPokedex());
 		pokedexDropdown.setModel(pokemonModel);
 	}
+	private void updateTypePanels()
+	{
+		String [] types = appController.getPokedex().get(pokedexDropdown.getSelectedIndex()).getPokemonTypes();
+		
+		if (types[0].equals("Water"))
+		{
+			firstType.setBackground(Color.BLUE);
+		}
+		else if (types[0].equals("Ice"))
+		{
+			secondType.setBackground(Color.CYAN);
+		}
+		else if (types[0].equals("Dragon"))
+		{
+			thirdType.setBackground(Color.darkGray);
+		}
+		else if (types[0].equals("Fire"))
+		{
+			fourthType.setBackground(Color.ORANGE);
+		}
+		else if (types[0].equals("Grass"))
+		{
+			fifthType.setBackground(Color.GREEN);
+		}
+		else if (types[0].equals("Normal"))
+		{
+			sixthType.setBackground(new Color(139, 69,  19));
+		}
+		else
+		{
+			firstType.setBackground(Color.white);
+		}
+		
+		if (types.length > 1)
+		{
+			if (types[1].equals("Water"))
+			{
+				secondType.setBackground(Color.BLUE);
+			}
+			
+			if (types.length == 3)
+			{
+				secondType.setBackground(Color.BLACK);
+			}
+		}
+		
+	}
+	private void  updateImage()
+	{
+		
+	}
 }
