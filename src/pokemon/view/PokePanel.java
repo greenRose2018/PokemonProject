@@ -139,7 +139,18 @@ public class PokePanel extends JPanel
 	
 	private void setupListeners()
 	{
-		
+		pokedexDropdown.addActionListener(new ActionListener()
+		{
+			public void actionPerformed(ActionEvent  selection)
+			{
+				int selectedPokemonIndex = pokedexDropdown.getSelectedIndex();
+				updatePokedexInfo(selectedPokemonIndex);
+				updateImage();
+				updateTypePanels();
+				repaint();
+			
+			}
+		});
 	}
 	
 	private void updatePokedexInfo(int index)
