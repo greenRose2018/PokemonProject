@@ -77,10 +77,23 @@ public class PokePanel extends JPanel
 		fifthType = new JPanel();
 		sixthType = new JPanel();
 		//seventhType = new JPanel();
+		
+		setupComboBox();
+		setupTypePanels();
 		setupPanel();
 		setupLayout();
 		setupListeners();
 		//setupScrollPane();
+	}
+	
+	private void setupTypePanels()
+	{
+		firstType.setSize(50,50);
+		secondType.setSize(50,50);
+		thirdType.setSize(50,50);
+		fourthType.setSize(50,50);
+		fifthType.setSize(50,50);
+		sixthType.setSize(50,50);
 	}
 	
 	private void setupPanel()
@@ -137,5 +150,10 @@ public class PokePanel extends JPanel
 		attackField.setText(appController.getPokedex().get(index).getAttackPoints() + "");
 		healthField.setText(appController.getPokedex().get(index).getHealthPoints() + "");
 		modifierField.setText(appController.getPokedex().get(index).getEnhancementModifier() + "");
+	}
+	private void setupComboBox()
+	{
+		DefaultComboBoxModel pokemonModel = new DefaultComboBoxModel(appController.convertPokedex());
+		pokedexDropdown.setModel(pokemonModel);
 	}
 }
