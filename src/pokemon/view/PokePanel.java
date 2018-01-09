@@ -56,10 +56,7 @@ public class PokePanel extends JPanel
 		baseLayout.putConstraint(SpringLayout.WEST, healthLabel, 0, SpringLayout.WEST, attackLabel);
 		baseLayout.putConstraint(SpringLayout.SOUTH, healthLabel, -12, SpringLayout.NORTH, attackLabel);
 		nameLabel = new JLabel("Name");
-		baseLayout.putConstraint(SpringLayout.WEST, nameLabel, 23, SpringLayout.WEST, this);
-		baseLayout.putConstraint(SpringLayout.SOUTH, nameLabel, -266, SpringLayout.SOUTH, this);
 		numberLabel = new JLabel("No.");
-		baseLayout.putConstraint(SpringLayout.WEST, numberLabel, 0, SpringLayout.WEST, nameLabel);
 		evolvableLabel = new JLabel("Evolvable");
 		baseLayout.putConstraint(SpringLayout.WEST, evolvableLabel, 0, SpringLayout.WEST, healthLabel);
 		modifierLabel = new JLabel("Modifier");
@@ -72,13 +69,7 @@ public class PokePanel extends JPanel
 		
 		evolvableBox = new JCheckBox();
 		nameField = new JTextField();
-		baseLayout.putConstraint(SpringLayout.NORTH, nameField, 213, SpringLayout.NORTH, this);
-		baseLayout.putConstraint(SpringLayout.WEST, nameField, 13, SpringLayout.EAST, nameLabel);
 		numberField = new JTextField();
-		baseLayout.putConstraint(SpringLayout.NORTH, numberField, 245, SpringLayout.NORTH, this);
-		baseLayout.putConstraint(SpringLayout.NORTH, numberLabel, 5, SpringLayout.NORTH, numberField);
-		baseLayout.putConstraint(SpringLayout.WEST, numberField, 0, SpringLayout.WEST, nameField);
-		baseLayout.putConstraint(SpringLayout.EAST, numberField, -97, SpringLayout.WEST, iconLabel);
 		attackField = new JTextField();
 		baseLayout.putConstraint(SpringLayout.WEST, evolvableBox, 0, SpringLayout.WEST, attackField);
 		baseLayout.putConstraint(SpringLayout.NORTH, attackField, -5, SpringLayout.NORTH, attackLabel);
@@ -95,20 +86,19 @@ public class PokePanel extends JPanel
 		baseLayout.putConstraint(SpringLayout.EAST, modifierField, 0, SpringLayout.EAST, attackField);
 		
 		descriptionArea = new JTextArea(5,10);
-		baseLayout.putConstraint(SpringLayout.WEST, descriptionArea, 0, SpringLayout.WEST, nameLabel);
-		baseLayout.putConstraint(SpringLayout.SOUTH, descriptionArea, 0, SpringLayout.SOUTH, iconLabel);
-		baseLayout.putConstraint(SpringLayout.EAST, descriptionArea, 238, SpringLayout.WEST, this);
+		baseLayout.putConstraint(SpringLayout.NORTH, descriptionArea, 10, SpringLayout.SOUTH, numberField);
+		baseLayout.putConstraint(SpringLayout.WEST, descriptionArea, 10, SpringLayout.WEST, this);
+		baseLayout.putConstraint(SpringLayout.EAST, descriptionArea, -10, SpringLayout.WEST, healthLabel);
 		typeArea = new JTextArea(4,15);
-		baseLayout.putConstraint(SpringLayout.EAST, nameField, -97, SpringLayout.WEST, typeArea);
 		baseLayout.putConstraint(SpringLayout.NORTH, iconLabel, 15, SpringLayout.SOUTH, typeArea);
 		baseLayout.putConstraint(SpringLayout.WEST, typeArea, 0, SpringLayout.WEST, healthLabel);
 
 		saveButton = new JButton("Save");
-		baseLayout.putConstraint(SpringLayout.SOUTH, saveButton, -6, SpringLayout.NORTH, descriptionArea);
 		clearButton = new JButton("Clear");
-		baseLayout.putConstraint(SpringLayout.EAST, clearButton, -585, SpringLayout.EAST, this);
-		baseLayout.putConstraint(SpringLayout.WEST, saveButton, 21, SpringLayout.EAST, clearButton);
-		baseLayout.putConstraint(SpringLayout.SOUTH, clearButton, -6, SpringLayout.NORTH, descriptionArea);
+		baseLayout.putConstraint(SpringLayout.NORTH, saveButton, 0, SpringLayout.NORTH, clearButton);
+		baseLayout.putConstraint(SpringLayout.WEST, saveButton, 41, SpringLayout.EAST, clearButton);
+		baseLayout.putConstraint(SpringLayout.NORTH, clearButton, 19, SpringLayout.SOUTH, descriptionArea);
+		baseLayout.putConstraint(SpringLayout.WEST, clearButton, 34, SpringLayout.WEST, this);
 		clearButton.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 			}
@@ -200,7 +190,20 @@ public class PokePanel extends JPanel
 	
 	private void setupLayout()
 	{
-		
+		baseLayout.putConstraint(SpringLayout.NORTH, pictureLabel, 10, SpringLayout.NORTH, this);
+		baseLayout.putConstraint(SpringLayout.WEST, pictureLabel, 10, SpringLayout.WEST, this);
+		baseLayout.putConstraint(SpringLayout.EAST, pictureLabel, -10, SpringLayout.WEST, healthLabel);
+		baseLayout.putConstraint(SpringLayout.WEST, nameLabel, 10, SpringLayout.WEST, this);
+		baseLayout.putConstraint(SpringLayout.WEST, numberLabel, 10, SpringLayout.WEST, this);
+		baseLayout.putConstraint(SpringLayout.NORTH, nameLabel, 5, SpringLayout.NORTH, nameField);
+		baseLayout.putConstraint(SpringLayout.SOUTH, pictureLabel, -10, SpringLayout.NORTH, nameField);
+		baseLayout.putConstraint(SpringLayout.NORTH, nameField, 213, SpringLayout.NORTH, this);
+		baseLayout.putConstraint(SpringLayout.WEST, nameField, 20, SpringLayout.EAST, nameLabel);
+		baseLayout.putConstraint(SpringLayout.EAST, nameField, -10, SpringLayout.WEST, healthLabel);
+		baseLayout.putConstraint(SpringLayout.NORTH, numberField, 10, SpringLayout.SOUTH, nameField);
+		baseLayout.putConstraint(SpringLayout.EAST, numberField, -10, SpringLayout.WEST, healthLabel);
+		baseLayout.putConstraint(SpringLayout.NORTH, numberLabel, 5, SpringLayout.NORTH, numberField);
+		baseLayout.putConstraint(SpringLayout.WEST, numberField, 0, SpringLayout.WEST, nameField);
 	}
 	
 	private void setupListeners()
