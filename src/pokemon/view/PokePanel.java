@@ -17,6 +17,7 @@ public class PokePanel extends JPanel
 	private JLabel evolvableLabel;
 	private JLabel modifierLabel;
 	private JLabel iconLabel;
+	private JLabel pictureLabel;
 	
 	private JCheckBox evolvableBox;
 	private JTextField nameField;
@@ -67,6 +68,7 @@ public class PokePanel extends JPanel
 		baseLayout.putConstraint(SpringLayout.WEST, modifierLabel, 0, SpringLayout.WEST, healthLabel);
 		iconLabel = new JLabel("pokemon", new ImageIcon(getClass().getResource("/pokemon/view/images/Pokeball.png")), JLabel.CENTER);
 		baseLayout.putConstraint(SpringLayout.WEST, iconLabel, 0, SpringLayout.WEST, healthLabel);
+		pictureLabel = new JLabel(new ImageIcon(getClass().getResource("/pokemon/view/images/Cubchoo.png")), JLabel.CENTER);
 		
 		evolvableBox = new JCheckBox();
 		nameField = new JTextField();
@@ -170,6 +172,7 @@ public class PokePanel extends JPanel
 		this.add(evolvableLabel);
 		this.add(modifierLabel);
 		this.add(iconLabel);
+		this.add(pictureLabel);
 		
 		this.add(evolvableBox);
 		this.add(nameField);
