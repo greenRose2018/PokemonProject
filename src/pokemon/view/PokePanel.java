@@ -74,14 +74,7 @@ public class PokePanel extends JPanel
 
 		saveButton = new JButton("Save");
 		clearButton = new JButton("Clear");
-		baseLayout.putConstraint(SpringLayout.NORTH, saveButton, 0, SpringLayout.NORTH, clearButton);
-		baseLayout.putConstraint(SpringLayout.WEST, saveButton, 41, SpringLayout.EAST, clearButton);
-		baseLayout.putConstraint(SpringLayout.NORTH, clearButton, 19, SpringLayout.SOUTH, descriptionArea);
-		baseLayout.putConstraint(SpringLayout.WEST, clearButton, 34, SpringLayout.WEST, this);
-		clearButton.addActionListener(new ActionListener() {
-			public void actionPerformed(ActionEvent e) {
-			}
-		});
+		
 		pokedexDropdown = new JComboBox();
 		
 		
