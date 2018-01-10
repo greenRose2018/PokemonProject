@@ -57,7 +57,6 @@ public class PokePanel extends JPanel
 		modifierLabel = new JLabel("Modifier");
 		
 		iconLabel = new JLabel("pokemon", new ImageIcon(getClass().getResource("/pokemon/view/images/Pokeball.png")), JLabel.CENTER);
-		baseLayout.putConstraint(SpringLayout.WEST, iconLabel, 0, SpringLayout.WEST, healthLabel);
 		pictureLabel = new JLabel(new ImageIcon(getClass().getResource("/pokemon/view/images/Cubchoo.png")), JLabel.CENTER);
 		
 		evolvableBox = new JCheckBox();
@@ -79,28 +78,26 @@ public class PokePanel extends JPanel
 		
 		
 		firstType = new JPanel();
-		baseLayout.putConstraint(SpringLayout.NORTH, firstType, 18, SpringLayout.SOUTH, pokedexDropdown);
-		baseLayout.putConstraint(SpringLayout.WEST, firstType, 0, SpringLayout.WEST, healthLabel);
+		baseLayout.putConstraint(SpringLayout.NORTH, firstType, 15, SpringLayout.SOUTH, pokedexDropdown);
+		baseLayout.putConstraint(SpringLayout.WEST, firstType, 10, SpringLayout.EAST, pictureLabel);
+		baseLayout.putConstraint(SpringLayout.EAST, firstType, -463, SpringLayout.EAST, this);
 		secondType = new JPanel();
-		baseLayout.putConstraint(SpringLayout.NORTH, secondType, 18, SpringLayout.SOUTH, pokedexDropdown);
-		baseLayout.putConstraint(SpringLayout.EAST, secondType, 0, SpringLayout.EAST, healthLabel);
+		baseLayout.putConstraint(SpringLayout.NORTH, secondType, -10, SpringLayout.SOUTH, firstType);
+		baseLayout.putConstraint(SpringLayout.WEST, secondType, 6, SpringLayout.EAST, firstType);
+		baseLayout.putConstraint(SpringLayout.SOUTH, secondType, 0, SpringLayout.SOUTH, firstType);
+		baseLayout.putConstraint(SpringLayout.EAST, secondType, -421, SpringLayout.EAST, this);
 		thirdType = new JPanel();
-		baseLayout.putConstraint(SpringLayout.NORTH, thirdType, 18, SpringLayout.SOUTH, pokedexDropdown);
-		baseLayout.putConstraint(SpringLayout.WEST, thirdType, 26, SpringLayout.EAST, secondType);
-		baseLayout.putConstraint(SpringLayout.SOUTH, thirdType, -301, SpringLayout.SOUTH, this);
-		baseLayout.putConstraint(SpringLayout.EAST, thirdType, -346, SpringLayout.EAST, this);
 		fourthType = new JPanel();
-		baseLayout.putConstraint(SpringLayout.NORTH, typeArea, 16, SpringLayout.SOUTH, fourthType);
-		baseLayout.putConstraint(SpringLayout.NORTH, fourthType, 6, SpringLayout.SOUTH, firstType);
-		baseLayout.putConstraint(SpringLayout.WEST, fourthType, 0, SpringLayout.WEST, healthLabel);
+		baseLayout.putConstraint(SpringLayout.NORTH, fourthType, 10, SpringLayout.SOUTH, firstType);
+		baseLayout.putConstraint(SpringLayout.WEST, fourthType, 0, SpringLayout.WEST, attackLabel);
+		baseLayout.putConstraint(SpringLayout.EAST, fourthType, 0, SpringLayout.EAST, firstType);
 		fifthType = new JPanel();
-		baseLayout.putConstraint(SpringLayout.NORTH, fifthType, 6, SpringLayout.SOUTH, secondType);
-		baseLayout.putConstraint(SpringLayout.WEST, fifthType, 0, SpringLayout.WEST, secondType);
+		baseLayout.putConstraint(SpringLayout.WEST, fifthType, 6, SpringLayout.EAST, fourthType);
+		baseLayout.putConstraint(SpringLayout.SOUTH, fifthType, 0, SpringLayout.SOUTH, fourthType);
 		sixthType = new JPanel();
-		baseLayout.putConstraint(SpringLayout.NORTH, sixthType, 6, SpringLayout.SOUTH, thirdType);
-		baseLayout.putConstraint(SpringLayout.WEST, sixthType, 0, SpringLayout.WEST, thirdType);
-		baseLayout.putConstraint(SpringLayout.SOUTH, sixthType, -16, SpringLayout.NORTH, typeArea);
-		baseLayout.putConstraint(SpringLayout.EAST, sixthType, -346, SpringLayout.EAST, this);
+		baseLayout.putConstraint(SpringLayout.WEST, sixthType, 362, SpringLayout.WEST, this);
+		baseLayout.putConstraint(SpringLayout.EAST, fifthType, -9, SpringLayout.WEST, sixthType);
+		baseLayout.putConstraint(SpringLayout.SOUTH, sixthType, 0, SpringLayout.SOUTH, fourthType);
 		//seventhType = new JPanel();
 		
 		setupComboBox();
