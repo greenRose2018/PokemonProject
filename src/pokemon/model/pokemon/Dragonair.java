@@ -20,7 +20,6 @@ public class Dragonair extends Dratini
 	
 	public int dragonTail()
 	{
-		
 		return 5;
 	}
 	
@@ -33,5 +32,6 @@ public class Dragonair extends Dratini
 	{
 		this.setAttackPoints(22);
 		this.setHealthPoints(150);
+		this.setCanEvolve(true);
 	}
 }
