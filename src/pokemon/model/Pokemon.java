@@ -25,7 +25,7 @@ public class Pokemon
 		
 		while(currentClass.getSuperclass() != null)
 		{
-			Class<?> [] pokemonTypes = currentClass.getClass().getInterfaces();
+			Class<?> [] pokemonTypes = currentClass.getInterfaces();
 			types = new String[pokemonTypes.length];
 			
 			for(int index = 0; index < types.length; index++)
@@ -40,6 +40,7 @@ public class Pokemon
 			
 			currentClass = currentClass.getSuperclass();
 		}
+		
 		types = new String [parentType.size()];
 		
 		for(int index = 0; index < parentType.size(); index++)
