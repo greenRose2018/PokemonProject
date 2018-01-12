@@ -34,6 +34,11 @@ public class Controller
 		pokedex.add(new Litleo());
 		pokedex.add(new Snivy());
 		pokedex.add(new Vulpix());
+		pokedex.add(new Beartic());
+		pokedex.add(new Dragonair());
+		pokedex.add(new Dragonite());
+		pokedex.add(new Kingdra());
+		pokedex.add(new Seadra());
 	}
 	
 	public List<Pokemon> getPokedex()
