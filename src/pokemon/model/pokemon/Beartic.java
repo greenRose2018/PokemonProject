@@ -5,10 +5,12 @@ public class Beartic extends Cubchoo
 	public Beartic()
 	{
 		super(614,"Beartic");
+		setup();
 	}
 	public Beartic(String name)
 	{
 		super(614,name);
+		setup();
 	}
 	public Beartic(int number, String name)
 	{

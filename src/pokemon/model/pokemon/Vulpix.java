@@ -8,10 +8,12 @@ public class Vulpix extends Pokemon implements Fire
 	public Vulpix()
 	{
 		super(037, "Vulpix");
+		setup();
 	}
 	public Vulpix(String name)
 	{
 		super(037, name);
+		setup();
 	}
 	public Vulpix(int number, String name)
 	{

@@ -7,10 +7,12 @@ public class Kingdra extends Seadra implements Dragon
 	public Kingdra()
 	{
 		super(230,"Kingdra");
+		setup();
 	}
 	public Kingdra(String name)
 	{
 		super(230,name);
+		setup();
 	}
 	public Kingdra(int number, String name)
 	{

@@ -8,10 +8,12 @@ public class Cubchoo extends Pokemon implements Ice
 	public Cubchoo()
 	{
 		super(613,"Cubchoo");
+		setup();
 	}
 	public Cubchoo(String name)
 	{
 		super(613,name);
+		setup();
 	}
 	public Cubchoo(int number, String name)
 	{

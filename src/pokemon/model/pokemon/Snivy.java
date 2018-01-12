@@ -8,10 +8,12 @@ public class Snivy extends Pokemon implements Grass
 	public Snivy()
 	{
 		super(495,"Snivy");
+		setup();
 	}
 	public Snivy(String name)
 	{
 		super(495,name);
+		setup();
 	}
 	public Snivy(int number, String name)
 	{

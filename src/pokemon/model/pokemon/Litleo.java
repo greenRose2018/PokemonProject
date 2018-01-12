@@ -9,10 +9,12 @@ public class Litleo extends Pokemon implements Normal, Fire
 	public Litleo()
 	{
 		super(667,"Litleo");
+		setup();
 	}
 	public Litleo(String name)
 	{
 		super(667, name);
+		setup();
 	}
 	public Litleo(int number, String name)
 	{
