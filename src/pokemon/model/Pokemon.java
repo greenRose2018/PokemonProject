@@ -31,7 +31,8 @@ public class Pokemon
 			for(int index = 0; index < types.length; index++)
 			{
 				String currentInterface = pokemonTypes[index].getCanonicalName();
-				currentInterface = currentInterface.replace(this.getClass().getPackage().getName() + ".", "");
+				String packageName = pokemonTypes[index].getPackage().getName() + ".";
+				currentInterface = currentInterface.replace(packageName, "");
 				if(!parentType.contains(currentInterface))
 				{
 					parentType.add(currentInterface);
