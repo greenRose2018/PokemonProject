@@ -29,16 +29,16 @@ public class Controller
 	public void buildPokedex()
 	{
 		pokedex.add(new Cubchoo());
+		pokedex.add(new Beartic());
 		pokedex.add(new Dratini());
+		pokedex.add(new Dragonair());
+		pokedex.add(new Dragonite());
 		pokedex.add(new Horsea());
+		pokedex.add(new Seadra());
+		pokedex.add(new Kingdra());
 		pokedex.add(new Litleo());
 		pokedex.add(new Snivy());
 		pokedex.add(new Vulpix());
-		pokedex.add(new Beartic());
-		pokedex.add(new Dragonair());
-		pokedex.add(new Dragonite());
-		pokedex.add(new Kingdra());
-		pokedex.add(new Seadra());
 	}
 	
 	public List<Pokemon> getPokedex()
