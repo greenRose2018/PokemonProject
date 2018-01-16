@@ -88,6 +88,7 @@ public class PokePanel extends JPanel
 		setupPanel();
 		setupLayout();
 		setupListeners();
+		setupFields();
 		//setupScrollPane();
 	}
 	
@@ -99,6 +100,18 @@ public class PokePanel extends JPanel
 		fourthType.setSize(50,50);
 		fifthType.setSize(50,50);
 		sixthType.setSize(50,50);
+	}
+	
+	private void setupFields()
+	{
+		evolvableBox.setEnabled(false);
+		nameField.setEnabled(false);
+		numberField.setEnabled(false);
+		attackField.setEnabled(false);
+		healthField.setEnabled(false);
+		modifierField.setEnabled(false);
+		descriptionArea.setEditable(false);
+		typeArea.setEditable(false);
 	}
 	
 	private void setupPanel()
