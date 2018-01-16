@@ -314,12 +314,23 @@ public class PokePanel extends JPanel
 			{
 				secondType.setBackground(Color.BLUE);
 			}
+			else
+			{
+				secondType.setBackground(Color.WHITE);
+			}
 			
 			if (types.length == 3)
 			{
 				secondType.setBackground(Color.BLACK);
 			}
-		}
+			else 
+			{
+				secondType.setBackground(Color.white);
+				
+			}
+		}	
+		
+		
 		
 	}
 	private void  updateImage()
