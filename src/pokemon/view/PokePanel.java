@@ -88,7 +88,7 @@ public class PokePanel extends JPanel
 		setupPanel();
 		setupLayout();
 		setupListeners();
-		setupFields();
+		//setupFields();
 		//setupScrollPane();
 	}
 	
