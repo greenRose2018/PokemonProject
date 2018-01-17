@@ -72,9 +72,17 @@ public class Controller
 		return names;
 	}
 	
-	
-	public PokeFrame getPokeFrame()
+	public void updateSelected(int selection, int health, int attack, boolean evolvable, double modifier, String name)
 	{
-		return appFrame;
+		Pokemon selected = pokedex.get(selection);
+		
+		selected.setAttackPoints(attack);
+		selected.setCanEvolve(evolvable);
+		selected.setEnhancementModifier(modifier);
+		selected.setName(name);
+		selected.setHealthPoints(health);
+		
+		FileController.savePokemonToFile((ArrayList<Pokemon>) pokedex);
+		
 	}
 }
