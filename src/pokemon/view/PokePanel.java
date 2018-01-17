@@ -352,13 +352,36 @@ public class PokePanel extends JPanel
 				secondType.setBackground(Color.WHITE);
 			}
 			
-			if (types.length == 3)
+		}
+		if(types.length > 2)
+		{
+			if (types[2].equals("Water"))
 			{
-				secondType.setBackground(Color.BLACK);
+				thirdType.setBackground(Color.BLUE);
+			}
+			else if (types[2].equals("Ice"))
+			{
+				thirdType.setBackground(Color.cyan);
+			}
+			else if (types[2].equals("Dragon"))
+			{
+				thirdType.setBackground(Color.darkGray);
+			}
+			else if (types[2].equals("Fire"))
+			{
+				thirdType.setBackground(Color.orange);
+			}
+			else if (types[2].equals("Grass"))
+			{
+				thirdType.setBackground(Color.green);
+			}
+			else if (types[2].equals("Normal"))
+			{
+				thirdType.setBackground(new Color(13,69,19));
 			}
 			else 
 			{
-				secondType.setBackground(Color.white);
+				thirdType.setBackground(Color.white);
 				
 			}	
 		}
