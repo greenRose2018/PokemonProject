@@ -298,23 +298,23 @@ public class PokePanel extends JPanel
 		}
 		else if (types[0].equals("Ice"))
 		{
-			secondType.setBackground(Color.CYAN);
+			firstType.setBackground(Color.CYAN);
 		}
 		else if (types[0].equals("Dragon"))
 		{
-			thirdType.setBackground(Color.darkGray);
+			firstType.setBackground(Color.darkGray);
 		}
 		else if (types[0].equals("Fire"))
 		{
-			fourthType.setBackground(Color.ORANGE);
+			firstType.setBackground(Color.ORANGE);
 		}
 		else if (types[0].equals("Grass"))
 		{
-			fifthType.setBackground(Color.GREEN);
+			firstType.setBackground(Color.GREEN);
 		}
 		else if (types[0].equals("Normal"))
 		{
-			sixthType.setBackground(new Color(139, 69,  19));
+			firstType.setBackground(new Color(139, 69,  19));
 		}
 		else
 		{
