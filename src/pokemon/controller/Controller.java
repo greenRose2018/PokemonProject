@@ -46,6 +46,11 @@ public class Controller
 		return pokedex;
 	}
 	
+	public PokeFrame getPokeFrame()
+	{
+		return appFrame;
+	}
+	
 	public boolean isValidInteger(String input)
 	{
 		return false;
